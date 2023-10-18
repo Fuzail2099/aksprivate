@@ -18,5 +18,5 @@ steps:
               inlineScript: |
                 az aks get-credentials --resource-group gov-devops --name akspriv1
                
-                kubectl apply -f azurefiles-pv.yaml
+                kubectl apply -f dep.yml
                 
