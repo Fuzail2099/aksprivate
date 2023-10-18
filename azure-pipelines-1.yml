@@ -12,7 +12,7 @@ steps:
 - task: AzureCLI@2
   displayName: 'Mount storage and disk'
   inputs:
-              azureSubscription: Visual Studio Professional Subscription
+              azureSubscription: Visual Studio Professional Subscription(5c818070-e938-4382-858f-8d3124e62624)
               scriptType: 'bash'
               scriptLocation: 'inlineScript'
               inlineScript: |
